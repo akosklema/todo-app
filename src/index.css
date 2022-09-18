@@ -1,0 +1,41 @@
+:root {
+  --clr-white: hsl(0, 100%, 100%);
+  --clr-bg-darkmode: hsl(235, 21%, 11%);
+  --clr-gray: hsl(235, 9%, 61%);
+  --clr-light-gray: hsl(236, 32%, 92%);
+
+  --clr-element-bg-darkmode: hsl(235, 24%, 19%);
+  --clr-text-light-darkmode: hsl(234, 11%, 52%);
+
+  --ff-josefin: 'Josefin Sans', sans-serif; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--ff-josefin);
+  background-color: hsl(0, 0%, 98%);
+  transition: background-color 200ms;
+}
+
+body.dark {
+  background-color: var(--clr-bg-darkmode);
+}
+
+input,
+button {
+  font: inherit;
+}

@@ -1,0 +1,14 @@
+.page-content-container {
+  width: 32.5rem;
+  position: absolute;
+  top: 10.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 768px) {
+  .page-content-container {
+    width: 54rem;
+    top: 15.8rem;
+  }
+}

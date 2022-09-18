@@ -1,0 +1,64 @@
+.header {
+  background-image: url("../../assets/bg-mobile-light.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+  width: 100vw;
+  transition: background-image 200ms;
+}
+
+.header--dark {
+  background-image: url("../../assets/bg-mobile-dark.jpg");
+  background-repeat: no-repeat;
+}
+
+.header-content-container {
+  width: 32.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+  padding-top: 4.8rem;
+}
+
+.header-text {
+  color: var(--clr-white);
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1.5rem;
+}
+
+.theme-toggler {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .header {
+    background-image: url("../../assets/bg-desktop-light.jpg");
+    height: 30rem;
+  }
+
+  .header--dark {
+    background-image: url("../../assets/bg-desktop-dark.jpg");
+  }
+
+  .header-content-container {
+    width: 54rem;
+    padding-top: 7rem;
+  }
+
+  .header-text {
+    color: var(--clr-white);
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header-content-container {
+    width: 54rem;
+  }
+}
