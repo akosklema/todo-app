@@ -30,7 +30,7 @@ Every user has the same privileges, there are no authentication methods.
 
 ### **Technical details**
 
-The project is JavaScript single page application, but it was built without a client-side library or framework. I created two [Webpack](https://webpack.js.org/) configuration, one for develpoment, which sets up a development server, and one for production, which optimizes the bundle of the source code. For styling I used CSS Modules, so the CSS classes are scoped to the given component. To handle the state of the todos, a simple JavaScript array was used as a global in-memory store. The UI theme and the todos are stored in the browser's local storage.
+The project is JavaScript single-page application, but it was built without a client-side library or framework. I created two [Webpack](https://webpack.js.org/) configuration, one for develpoment, which sets up a development server, and one for production, which optimizes the bundle of the source code. For styling I used CSS Modules, so the CSS classes are scoped to the given component. To handle the state of the todos, a simple JavaScript array was used as a global in-memory store. The UI theme and the todos are stored in the browser's local storage.
 
 ### **Links**
 
